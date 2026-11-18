@@ -1,0 +1,14 @@
+
+
+! https://github.com/uBlockOrigin/uAssets/pull/35378
+! https://bazaar.abuse.ch/browse/tag/kurdishmyth/
+/^https?:\/\/cdn\.discordapp\.com\/[^?]*\/(?:[A-Z][a-z]+SMP\.zip|[A-Za-z_]+Mod\.zip)(?:\?|$)/$document,match-case,reason="Minecraft mods sent over Discord may contain malware, this is a known phishing tactic. Even if sent from someone you know, they may have had their Discord account stolen. Think twice before downloading."
+/^https?:\/\/cdn\.discordapp\.com\/[^?]*\.(?:jar|mrpack|litemod|mcpack|mcaddon)(?:\?|$)/$document,reason="Minecraft mods sent over Discord may contain malware, this is a known phishing tactic. Even if sent from someone you know, they may have had their Discord account stolen. Think twice before downloading."
+
+
+
+
+
+
+
+
